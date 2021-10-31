@@ -1,7 +1,7 @@
 /**
  * Entry file to out application
  */
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 const http = require('http');
 const url = require('url');
 const { StringDecoder } = require('string_decoder');
